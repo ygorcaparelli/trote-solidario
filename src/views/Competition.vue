@@ -14,14 +14,14 @@
 
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
-              <li class="nav-item"><a class="nav-link" href="/"><i class="fa fa-home"></i> Home</a></li>
-              <li class="nav-item"><a class="nav-link" href="/introducao"><i class="fa fa-info-circle"></i> Introdução</a></li>
-              <li class="nav-item"><a class="nav-link" href="/objetivo"><i class="fa fa-bullseye"></i> Objetivo</a></li>
-              <li class="nav-item"><a class="nav-link" href="/formato"><i class="fa fa-list-alt"></i> Formato</a></li>
-              <li class="nav-item"><a class="nav-link" href="/gincana"><i class="fa fa-trophy"></i> Gincana</a></li>
-              <li class="nav-item"><a class="nav-link" href="/integracao"><i class="fa fa-users"></i> Integração</a></li>
-              <li class="nav-item"><a class="nav-link" href="/observacoes"><i class="fa fa-sticky-note"></i> Observações</a></li>
-              <li class="nav-item"><a class="nav-link" href="/calculadoras"><i class="fa fa-calculator"></i> Calculadoras</a></li>
+              <li class="nav-item"><router-link class="nav-link" to="/"><i class="fa fa-home"></i> Home </router-link></li>
+              <li class="nav-item"><router-link class="nav-link" to="/introducao"><i class="fa fa-info-circle"></i> Introdução</router-link></li>
+              <li class="nav-item"><router-link class="nav-link" to="/objetivo"><i class="fa fa-bullseye"></i> Objetivo</router-link></li>
+              <li class="nav-item"><router-link class="nav-link" to="/formato"><i class="fa fa-list-alt"></i> Formato</router-link></li>
+              <li class="nav-item"><router-link class="nav-link" to="/gincana"><i class="fa fa-trophy"></i> Gincana</router-link></li>
+              <li class="nav-item"><router-link class="nav-link" to="/integracao"><i class="fa fa-users"></i> Integração</router-link></li>
+              <li class="nav-item"><router-link class="nav-link" to="/observacoes"><i class="fa fa-sticky-note"></i> Observações</router-link></li>
+              <li class="nav-item"><router-link class="nav-link" to="/calculadoras"><i class="fa fa-calculator"></i> Calculadoras</router-link></li>
             </ul>
           </div>
         </div>
